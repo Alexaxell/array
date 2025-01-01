@@ -4,7 +4,7 @@
 
 int main(void) {
     srand(time(NULL));
-    int numeri[100];
+    int numeri[99];
     int n, count = 0, errore = 0;
     for (int i = 0; i < 100; i++) {
         numeri[i] = rand() % 10;
